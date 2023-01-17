@@ -11,6 +11,10 @@ body{
 
 /* Header Styles */
 
+.header{
+    margin-bottom: 80px;
+}
+
 /* Navigation Styles */
 
 nav{
@@ -66,6 +70,89 @@ nav ul li{
     width: 100%;
     margin-bottom: 20px;
 }
+
+/* Features Section */
+.features{
+    display: flex;
+    margin-bottom: 130px;
+   
+}
+
+.features img{
+    width:200px;
+    height: 200px;
+}
+
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.feature-text{
+
+    margin: 0 50px;
+
+}
+
+/* BestFeatures Section  */
+
+.best-features{
+    display: flex;
+    gap: 2px;
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+
+.best-features .best-features-info{
+
+    width:50%;
+}
+
+.best-features-info{
+    margin-right: 50px;
+}
+
+.best-features-info h2{
+    border-left: 4px solid #FF900E;
+    padding-left: 5px;
+}
+
+.best-features-info img{
+    width: 100%;
+    height: 100%;
+}
+.best-features-description{
+
+    border-radius: 10px;
+    background-color: #FFFF;
+    padding: 10px;
+    margin-bottom: 10px ;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    
+}
+.best-features-description p{
+    color: #727272;
+}
+
+.best-features-info .btn-primary{
+    height:130px;
+    margin: -30px -20px;
+    font-size: 2rem;
+}
+
+/* Facts Section */
+.facts-container{
+
+}
+.fact{
+    display: flex;
+}
+
+
+/* Sponsors Section  */
 
 
 @media screen and (min-width: 577px) and (max-width: 992px){
