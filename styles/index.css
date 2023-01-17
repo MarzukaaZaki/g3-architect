@@ -1,0 +1,21 @@
+/* Fonts  */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header Styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 170px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
