@@ -2,20 +2,72 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 144, 14, 0.1);
 }
+
 
 
 /* Header Styles */
 
+/* Navigation Styles */
+
 nav{
     display: flex;
-    justify-content: space-between;
-    margin: 0 170px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    /* margin: 0 170px; */
 }
+
 nav ul{
     display: flex;
+   
 }
 nav ul li{
     list-style: none;
     margin-right: 50px;
+    font-size: 0.8rem;
+}
+
+/* Banner Styles */
+.banner{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 200px; */
+    text-align: center;
+}
+.banner-heading{
+   font-size: 4vw;
+   font-weight: 800;
+}
+.banner-text{
+    font-size: 1.1rem;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.banner-btn{
+
+    margin-bottom: 50px;
+
+}
+.btn-primary{
+    color: #FFFF;       
+    background: #FF900E;
+    height: 60px;
+    border-radius: 5px ;
+    border: 0;              /* no border */
+    padding: 18px 35px;     /*spacing around text inside button*/
+    font-weight: 600;
+    font-size: 20px;
+}
+.banner img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
 }
