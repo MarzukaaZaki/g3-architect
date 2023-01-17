@@ -146,14 +146,39 @@ nav ul li{
 /* Facts Section */
 .facts-container{
 
+   margin-bottom: 130px;
+
 }
 .fact{
     display: flex;
+    gap: 20px;
+    
+}
+.fact-info{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
 }
 
+.fact-info img{
+    justify-content: center;
+}
 
 /* Sponsors Section  */
+.sponsors{
+    text-align: center;
+    
+}
+.sponsors-info{
+   margin-top: 30px;
+    display: flex;
+    gap: 80px;
+}
 
+.sponsors img{
+    width: 100px;
+}
 
 @media screen and (min-width: 577px) and (max-width: 992px){
 
